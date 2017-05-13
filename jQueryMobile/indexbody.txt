@@ -1,0 +1,40 @@
+      <div data-role="page" id="contacts-home">
+          <div data-role="header">
+              <h1>Meus Contatos</h1>
+          </div>
+          <div data-role="content">
+              <ul id="contactList" data-role="listview" data-inset="true">
+              </ul>
+          </div>
+      </div> <!-- Lista de contatos -->
+
+      <div data-role="page" id="contact-info">
+          <div id="contact_header" data-role="header">
+              <a href="#contacts-home" id="back" data-icon="back" data-direction="reverse">Voltar</a>
+              <h1></h1>
+          </div>
+          <div id="contact_content" data-role="content">
+             <div data-role="fieldcontain">
+                  <label for="givenName">Nome:</label>
+                  <input type="text" name="givenName" id="givenName" readonly/>
+              </div>
+              <div data-role="fieldcontain">
+                  <label for="familyName">Sobrenome:</label>
+                  <input type="text" name="familyName" id="familyName" readonly/>
+              </div>
+              <div data-role="fieldcontain">
+                  <label for="phone1">Telefone 1:</label>
+                  <input type="text" name="phone1" id="phone1" readonly/>
+              </div>
+			  <div data-role="fieldcontain">
+				  <label for="phone2">Telefone 2:</label>
+				  <input type="text" name="phone2" id="phone2" readonly/>
+			  </div>
+			  <div data-role="fieldcontain">
+				  <label for="phone3">Telefone 3:</label>
+				  <input type="text" name="phone3" id="phone3" readonly/>
+			  </div>
+          </div>
+      </div> <!-- Detalhes do contato -->
+
+
